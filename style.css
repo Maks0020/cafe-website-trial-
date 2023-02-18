@@ -1,0 +1,1153 @@
+
+::-webkit-scrollbar {
+    width: 0px;
+  }
+
+
+/*--- header ---*/
+
+body{
+    margin: 0;
+}
+
+.header{
+    position: relative;
+    background-image: url(phon.jpg);
+    height: 115vh;
+    width: auto;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    
+    border-radius: 0px 0px 54px 54px;
+}
+
+.container{
+    margin: 0px 103px;
+}
+
+.block-head{
+    position: absolute;
+    background-color: #ff0000;
+}
+
+.cups{
+    position: absolute;
+    width: 488px;
+    height: 488px;
+    left: 38px;
+    top: 516px;
+
+    background: url(cups.png);
+
+    transition: 0.2s;
+}
+
+.cups:hover{
+    transform: scale(1.01);
+}
+
+.header-line{
+    width: 1800px;
+    height: 211px;
+
+    padding-top: 31px;
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    position: absolute;
+    align-items: center;
+
+    width: 1125px;
+    height: 52px;
+    left: 762px;
+    top: 114px;
+}
+/* ------ */
+.nav-item{
+    color: #6A6A6A;
+    text-decoration: none;
+
+    font-size: 37px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    
+    margin-right: 41px;
+
+    transition: color  0.1s linear;
+}
+
+.nav-item:hover{
+    color: #9c9c9c;
+}
+/* ------ */
+
+/* ------ */
+
+.text-head{
+    position: relative;
+
+    display: block;
+    justify-content: center;
+
+    font-family: 'Montserrat', sans-serif;
+    
+    width: 1150px;
+    height: 257px;
+    left: 356px;
+    top: 283px;
+
+
+
+}
+
+.shjc{
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Iceland';
+
+    color: #ad8414;
+    
+    width: 1034px;
+    height: 152px;
+
+    left: 1042px;
+    top: 242px;
+
+    font-weight: 400;
+    font-size: 190px;
+    line-height: 152px;
+
+    align-items: center;
+    text-align: center;
+
+    margin: auto;
+    margin-bottom: 31px;
+
+}
+
+.text-hh{
+    position: absolute;
+
+    display: block;
+    justify-content: space-between;
+
+    color: #777777;
+
+    font-size: 61px;
+    
+    width: 1200px;
+    height: 74px;
+
+ 
+    margin: 0px;
+ 
+}
+.text-hh span{
+    color: #a0a0a0;
+    margin-left: 2px;
+}
+ /* ------ */
+
+ .address{
+    position: absolute;
+    width: 287px;
+    height: 48px;
+    left: 1555px;
+    top: 940px;
+
+    color: #C1C1C1;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 48px;
+    }
+
+/*--- header ---*/
+
+
+
+
+
+
+
+
+
+/*--- cards ---*/
+.container2{
+    margin: 0PX 153PX;
+}
+
+
+
+.coffee_cards{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+.card{
+    position: relative;
+    background-color: #ffffff;
+
+    border-radius: 54px;
+    box-shadow: 0px 0px 40px 6px rgba(0, 0, 0, 0.25);
+
+    width: 436px;
+    height: 752px;
+
+    background-color: #fff;
+    margin-top:-90px;
+
+    transition: 0.3s;
+
+}
+
+.card:hover{
+    transform: scale(1.01px);
+}
+
+.img_cup330ml{
+    margin-left: 105.5px;
+    margin-bottom: 13px;
+    margin-right: 105.5px;
+    margin-top: 77px;
+}
+
+.volume{
+    display: flex;
+
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 78px;
+
+    width: 218px;
+    height: 78px;
+
+    text-align: center;
+
+    margin: auto;
+    margin-top: -1px;   color: #5B5B5B;
+}
+
+.new_price{
+    position: absolute;
+    justify-content: center;
+
+    width: 155px;
+
+    height: 70px;
+   
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 70px;
+
+    text-align: center;
+    margin-left: 140.5px;
+    margin-right: 140.5px;
+    margin-top: 55px;
+    margin-bottom:38px;
+}
+
+.new_price span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 47px;
+
+    color: #000000;
+}
+
+.old_price{
+    position: absolute;
+    display: block;
+    justify-content: center;
+
+    width: 78px;
+    height: 35px;
+
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 35px;
+
+    margin-left: 295px;
+    margin-right: 63px;
+    margin-bottom: 100px;
+}
+
+.old_price span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 40px;
+  
+    top: 65px;    
+
+    color: #000000;
+}
+
+.img_cup200ml{
+    margin-left: 105.5px;
+    margin-bottom: 13px;
+    margin-right: 105.5px;
+    margin-top: 77px;
+}
+
+.old_price_bg{
+    border: 2px solid #B40909;
+}
+
+.img_cup150ml{
+    margin-left: 105.5px;
+    margin-bottom: 13px;
+    margin-right: 105.5px;
+    margin-top: 77px;
+}
+
+.old_price_bg{
+ position: absolute;
+    width: 88px;
+    height: 0px;
+    margin-left: 288px;
+    margin-top: 54px;
+    border: 2px solid #B40909;
+    border-radius: 54px;
+}
+
+/*--- cards ---*/
+
+
+
+
+
+
+
+
+
+/*--- head barista ---*/
+.hb_cont{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 235px;
+}
+.barista_title{
+    display: grid;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 54px;
+    width: 1026px;
+    height: 1075px;
+
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.25);
+}
+
+.img_barista{
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 39px;
+}
+
+.txt_head_barista{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 79px;
+    text-align: center;
+    margin-top: 34px;
+
+    margin-bottom: 20px;
+}
+
+.full_name{
+
+    justify-content: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 71px;
+    text-align: center;
+
+    margin-bottom: 41px;
+}
+
+
+
+.auth_coffee_title{
+    display: grid;
+    
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 54px;
+    width: 436px;
+    height: 1065px;
+
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.25);
+}
+
+.txt_coffee{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 55px;
+    align-items: center;
+    text-align: center;
+
+  
+    width: 434px;
+
+    margin-top: 46px;
+    margin-bottom: 40px;
+}
+
+.img_auther_coffee{
+    display: grid;
+    justify-content: center;
+}
+.ml_a_price{
+    display: grid;
+    justify-content: center;
+    margin-top: 53px;
+    margin-bottom: 60px;
+}
+.volume_ac{
+
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 78px;
+
+    width: 218px;
+    height: 78px;
+
+    text-align: center;
+    color: #5B5B5B;
+}
+
+.price_ac{
+    
+    width: 218px;
+
+    height: 78px;
+   
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 70px;
+
+    text-align: center;
+
+
+}
+
+.price_ac span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 47px;
+
+    color: #000000;
+}
+
+.resipe{
+    display: grid;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+/*--- head barista ---*/
+
+
+
+
+
+
+/*--- menu ---*/
+.cataloge{
+    margin-top: 111px;
+}
+
+.start_menu_block{
+    display: block;
+    justify-content: center;
+
+    margin-bottom: 70px;
+}
+
+.menu{
+    display: block;
+    justify-content: space-between;
+    width: 1614px;
+    height: 2120px;
+
+    background-color: #ffffff;
+    border-radius: 54px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.25);
+}
+
+.start_menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 61px;
+    padding: 40px 0px;
+
+}
+
+
+.start_menu span{
+    display: block;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+
+    align-items: center;
+    text-align: center;
+ 
+    box-sizing: border-box;
+    color: #000000;
+    background-color: #ffffff;
+
+    padding: 0px 40px;
+}
+
+.start_menu::before{
+    content: " ";
+    position: absolute;
+    justify-content: center;
+    top: 50%;
+    bottom: 50%;
+    width: 1489px;
+    height: 2px;
+
+    background-color: #000000;
+}
+
+
+
+
+
+    /*! coffee prise  */
+
+    table{
+
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+    
+        align-items: center;
+        text-align: center;
+        
+        color: #000000;
+    
+        border-collapse: collapse;
+    }
+        /* th */
+    .table_menu{
+        display: flex;
+        justify-content: center;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    
+    .line1{
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 35px;    
+        padding-left: 0px;
+
+        transition:rgb(252, 252, 252);
+        background-color: #fff;
+    }
+    
+    
+    th{
+        font-weight: normal
+    }
+    
+    
+    
+    
+    .table_coffee_name{
+        font-size: 55px;
+        line-height: 67px;
+    
+        height: 55px;
+        width: 300px;
+    
+        padding-right: 80px;
+        padding-bottom: 16px;
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+    
+    .table_coffee_name:after{
+        content: " ";
+        display: inline-block;
+        justify-content: center;
+        position: absolute;
+        width: 67px;
+        height: 72px;
+        background-image: url(img_coffee_caup_menu.jpg);
+        background-repeat: no-repeat;
+    }
+    
+    
+    
+    .table_coffee_volume{
+        font-size: 45px;
+        line-height: 55px;
+        padding-left: 150px;
+        padding-top: 0;
+        padding-right: 0px;
+        padding-bottom: 30px;
+    }
+        /* th */
+    
+        /* td */
+    .line2{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+    
+        font-size: 35px;
+        line-height: 43px;
+    
+        align-items: center;
+        text-align: center;
+    
+        height: 55px;
+        width: 300px;
+
+
+    }
+    
+    
+    
+    .coffee_name{
+        text-align: left;
+        height: 55px;
+        width: 300px;
+        font-size: 35px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    
+    .coffee_prise{
+        padding-left: 202px;
+        font-size: 35px;
+        padding-right: 20px;
+    }
+        
+        /* td */
+    
+    
+    th, td{
+        border-bottom: 1px solid black;
+        border-width: 9%;
+    }
+    /*! coffee prise  */
+
+
+
+
+
+
+
+/*! tea prise  */
+
+    /* th */
+
+.table_tea_name{
+    font-size: 55px;
+    line-height: 67px;
+
+    height: 55px;
+    width: 300px;
+
+    padding-right: 80px;
+    padding-bottom: 16px;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+.table_tea_name:after{
+    content: " ";
+    display: inline-block;
+    justify-content: center;
+    position: absolute;
+    margin-left: 10px;
+    width: 67px;
+    height: 72px;
+    background-image: url(img_tea_menu.jpg);
+    background-repeat: no-repeat;
+}
+
+
+
+.table_tea_volume{
+    font-size: 45px;
+    line-height: 55px;
+    padding-left: 150px;
+    padding-top: 0;
+    padding-right: 0px;
+    padding-bottom: 30px;
+}
+    /* th */
+
+    /* td */
+
+
+
+
+.tea_name{
+    text-align: left;
+    height: 55px;
+    width: 300px;
+    font-size: 35px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.tea_prise{
+    padding-left: 202px;
+    font-size: 35px;
+    padding-right: 20px;
+}
+    
+    /* td */
+
+    /*! tea prise  */
+
+
+    /*! bakery products */
+
+.table_div{
+    display: flex;
+    vertical-align: top;
+    justify-content: space-evenly;
+    
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.table_menu_bakery{
+    display: inline-table;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+
+
+    text-align: left;
+
+    color: #000000;
+
+    border-collapse: collapse;
+}
+    
+.table_bakery_name{
+    font-size: 55px;
+    line-height: 67px;
+    
+    text-align: center;
+
+    height: 67px;
+    width: 300px;
+    
+    padding-right: 80px;
+    padding-bottom: 16px;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+.table_bakery_name::after{
+    content: " ";
+    display: inline-block;
+    justify-content: center;
+    position: absolute;
+    width: 85px;
+    height: 72px;
+    background-image: url(croissant.jpg);
+    background-repeat: no-repeat;
+}  
+
+
+.bakery_name{
+    height: 55px;
+    width: 440px;
+
+    padding-right: 87px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    text-align: left;
+
+
+}
+
+
+
+
+
+
+.finish_menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 92px;
+    padding: 15px 0px;
+
+}
+
+
+.finish_menu span{
+    display: block;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+
+    align-items: center;
+    text-align: center;
+ 
+    box-sizing: border-box;
+    color: #000000;
+    background-color: #ffffff;
+
+    padding: 0px 40px;
+}
+
+.finish_menu::before{
+    content: " ";
+    position: absolute;
+    justify-content: center;
+    top: 50%;
+    bottom: 50%;
+    width: 1489px;
+    height: 2px;
+
+    background-color: #000000;
+}
+
+    /*! bakery products */
+/*--- menu ---*/
+
+
+/*--- timetable ---*/
+
+.conainer4{
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.inline_timeblock{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 220px;
+    margin-bottom: 152px;
+
+}
+
+.timetable{
+
+    width: 530px;
+    height: 650px;
+
+
+    background-color: #fff;
+    box-shadow: 0px 0px 40px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 54px;
+}
+
+.class_timetable_block{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 55px;
+
+    align-items: center;
+    text-align: center;
+
+    margin-top: 75px;
+    margin-bottom: 0px;
+}
+
+.discount_time{
+
+    width: 530px;
+    height: 650px;
+
+
+    background-color: #fff;
+    box-shadow: 0px 0px 40px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 54px;   
+}
+
+.time_sev{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 55px;
+
+    align-items: center;
+    text-align: center;
+
+    padding-top: 72px;
+    padding-bottom: 40px; 
+
+    margin: 0px;
+}
+
+.sale{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 55px;
+
+    align-items: center;
+    text-align: center;
+
+    padding-top: 40px;
+    padding-bottom: 5px; 
+
+    margin: 0px;
+}
+
+.twenty_percent{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 170px;
+    line-height: 207px;
+
+    align-items: center;
+    text-align: center;
+
+    padding-top: 0px;
+    padding-bottom: 5px;
+
+    margin: 0px;
+}
+
+.full{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 55px;
+
+    align-items: center;
+    text-align: center;
+
+    padding-top: 0px;
+    padding-bottom: 110px;
+    
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+/*--- timetable ---*/
+
+
+
+
+
+
+footer{
+    background-color: #1E1E1E;
+
+    height: 350px;
+    margin: 0px;
+}
+
+.footer_block{
+    display: flex;
+}
+
+.container5{
+    margin-left: 147px;
+    margin-right: 48px;
+}
+
+.footer_name_cafe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fnc{
+    width: 468px;
+    display: flex;
+    height: 124px;
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 124px;
+    display: initial;
+    align-items: center;
+    text-align: right;
+    color: #AD8414;
+
+    margin: 0px;
+}
+
+.footer_name_cafe::before{
+    content: " ";
+    width: 214px;
+    height: 244px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(footer_logo.png);
+    background-repeat: no-repeat;
+}
+
+.fnc span{
+
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 22px;
+    display: grid;
+    align-items: center;
+    text-align: right;
+
+    color: #6A6A6A;
+}
+
+
+.num_phone{
+    display: grid;
+    width: 300px;
+    height: 150px;
+    margin-left: 93px;
+    margin-top: 88px; 
+}
+
+.txt_phone{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 29px;
+
+    align-items: center;
+
+    color: #6A6A6A;
+}
+
+.number{
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+
+    color: #6A6A6A;
+
+    padding-left: 40px;
+}
+
+.mail{
+    display: grid;
+    width: 300px;
+    height: 90px;
+    margin-left: 93px;
+    margin-top: 88px;
+}
+
+.txt_mail{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 29px;
+
+    align-items: center;
+
+    color: #6A6A6A;
+}
+
+.sh_zh_mail{
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+
+    color: #6A6A6A;
+
+    padding-left: 30px;
+}
+
+.block_link{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 172px;
+    height: 41px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.link_tg{
+    width: 68px;
+    height: 41px;
+}
+
+.link_vk{
+    width: 66px;
+    height: 41px;
+}
